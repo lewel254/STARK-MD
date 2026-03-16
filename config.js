@@ -37,7 +37,7 @@ module.exports = {
     AUTO_READ_MESSAGES: process.env.AUTO_READ_MESSAGES || "false", // true = bluetick all messages, commands = bluetick commands only
     AUTO_BLOCK: process.env.AUTO_BLOCK || "", // Multiple country codes separated by comma
     PRESENCE: process.env.PRESENCE || "typing", // typing, recording, online, null
-    TIME_ZONE: process.env.TIME_ZONE || "Kenya/Nairobi", // Enter your timezone
+    TIME_ZONE: process.env.TIME_ZONE || "", // Enter your timezone
 };
 
 // Auto-reload this config when file changes
